@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Quick Start",
+    "body": "React apps are made out of components. A component is a piece of the UI (user interface) that has its own logic and appearance. A component can be as small as a button, or as large as an entire page.",
+    "href": "https://react.dev/learn"
+  },
+  {
+    "title": "Installation",
+    "body": "React has been designed from the start for gradual adoption. You can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to an HTML page, or start a complex React-powered app, this section will help you get started.",
+    "href": "https://react.dev/learn/installation"
+  },
+  {
+    "title": "Using TypeScript",
+    "body": "TypeScript is a popular way to add type definitions to JavaScript codebases. Out of the box, TypeScript supports JSX and you can get full React Web support by adding @types/react and @types/react-dom to your project.",
+    "href": "https://react.dev/learn/typescript"
+  }
+]
