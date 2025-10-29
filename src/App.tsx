@@ -1,17 +1,15 @@
-import './global.css'
-
-import { Footer } from "./Pages/Footer/Footer";
-import { Header } from "./Pages/Header/Header";
-import { Main } from "./Pages/Main/Main";
-import { Sidebar } from "./Pages/Sidebar/Sidebar";
+import { useState } from "react";
 
 export const App = () => {
+  const [arr, setArr] = useState([1, 2, 3, 4, 5]);
+
+  const push = () => {
+    setArr((prevState) => [...prevState, 1]);
+  };
   return (
-    <div className="container">
-      <Header />
-      <Main />
-      <Sidebar />
-      <Footer />
-    </div>
+    <>
+      <h3>{arr}</h3>
+      <button onClick={push}>Push</button>
+    </>
   );
 };
